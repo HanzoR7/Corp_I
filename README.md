@@ -1,16 +1,41 @@
-# myapp
+# Практическая работа №1 по Программированию корпоративных систем
+## Мрясова Анастасия Александровна ЭФБО-01-22
 
-A new Flutter project.
+### Установка всех компонентов
+1. Установил Android Studio и Flutter SDK по инструкции на сайте Metanit
 
-## Getting Started
+![](pics/image_2024-09-09_21-33-05.png)
 
-This project is a starting point for a Flutter application.
+2. Добавил в переменную среды Path путь C:/flutter/bin
 
-A few resources to get you started if this is your first Flutter project:
+3. В терминале ввел команду  `flutter doctor` и проверил, что все компоненты были установлены корректно
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Результат](pics/image_2024-09-09_22-14-27.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Создание нового проекта
+
+1. С помощью команды `flutter create` создал новый проект Flutter (к сожалению не делал скриншотов на этом этапе)
+
+2. Далее с помощью команд `flutter devices` и `flutter emulators` проверил, с помощью каких устройств можно запустить приложение
+
+![](pics/image_2024-09-09_22-23-46.png)
+
+3. Открыла проект в Android Studio, предварительно установив плагины Dart и Flutter. В файле main.dart нашла кусок кода, который нужно изменить
+
+![](pics/image_2024-09-09_22-15-34.png)
+
+### Запуск приложения
+
+1. С помощью команды `flutter run -d edge` запустил приложение в Google Chrome
+
+![](pics/image_2024-09-09_22-17-04.png)
+
+![](pics/image_2024-09-09_22-17-30.png)
+
+2. С помощью команды `flutter emulators -–launch` запустил эмулятор, далее подключился к нему по id с помощью команды `flutter run –d emulator-5554`
+
+![](pics/image_2024-09-09_22-23-46.png)
+
+![](pics/image_2024-09-09_22-25-42.png)
+
+![](pics/image_2024-09-09_22-29-34.png)
