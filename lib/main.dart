@@ -23,7 +23,6 @@ class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 
   @override
-  // ignore: library_private_types_in_public_api
   _LoginScreenState createState() => _LoginScreenState();
 }
 
@@ -75,7 +74,6 @@ class _LoginScreenState extends State<LoginScreen> {
             const SizedBox(height: 16),
             ElevatedButton(
               onPressed: () {
-                // Логика для кнопки Войти
               },
               style: ElevatedButton.styleFrom(
                 minimumSize: const Size(double.infinity, 50),
@@ -89,7 +87,6 @@ class _LoginScreenState extends State<LoginScreen> {
             const SizedBox(height: 16),
             TextButton(
               onPressed: () {
-                // Логика для кнопки Регистрация
               },
               child: const Text(
                 'Регистрация',
@@ -98,7 +95,6 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
             TextButton(
               onPressed: () {
-                // Логика для кнопки Восстановить пароль
               },
               child: const Text(
                 'Восстановить пароль',
